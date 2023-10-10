@@ -1,0 +1,42 @@
+version: '3.4'
+
+services:
+
+#  loadbalancergateway:
+#     environment:
+#       - ASPNETCORE_ENVIRONMENT=Development
+#       - ASPNETCORE_URLS=http://+:80
+#     ports:
+#       - "5030:80" 
+#     depends_on: 
+#       - loadbalancer.api
+#       - loadbalancer.api2
+#       - loadbalancer.api3
+
+ my-redis-container:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:6379
+    ports:
+      - "6379:6379"
+ 
+ loadbalancer.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:7157
+    ports:
+      - "7157:7157"
+ 
+ loadbalancer.api2:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8157
+    ports:
+      - "8157:8157"
+ 
+ loadbalancer.api3:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:9157
+    ports:
+      - "9157:9157" 

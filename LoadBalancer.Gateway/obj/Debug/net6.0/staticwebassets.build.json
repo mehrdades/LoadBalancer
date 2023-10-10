@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KDI6bpLG4oJ+firRriZjzBbuTCjbDEuEY4vm7UuB3Qo=",
+  "Source": "LoadBalancer.Gateway",
+  "BasePath": "_content/LoadBalancer.Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

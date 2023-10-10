@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yuYPdnDIB1kDdZPKqtRXum5l3gtIzwUdEPVaaRtwWpo=",
+  "Source": "LoadBalancer.Microservice",
+  "BasePath": "_content/LoadBalancer.Microservice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

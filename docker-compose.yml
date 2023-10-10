@@ -1,0 +1,34 @@
+version: '3.4'
+
+services:
+  my-redis-container:
+    image: redis
+    container_name: my-redis-container
+    
+  loadbalancer.api:
+    image: ${DOCKER_REGISTRY-}loadbalancermicroservice
+    container_name: loadblancer-api
+    build:
+      context: LoadBalancer.Microservice
+      dockerfile: Dockerfile
+  
+  loadbalancer.api2:
+    image: ${DOCKER_REGISTRY-}loadbalancermicroservice
+    container_name: loadblancer-api2
+    build:
+      context: LoadBalancer.Microservice
+      dockerfile: Dockerfile
+  
+  loadbalancer.api3:
+    image: ${DOCKER_REGISTRY-}loadbalancermicroservice
+    container_name: loadblancer-api3
+    build:
+      context: LoadBalancer.Microservice
+      dockerfile: Dockerfile
+  
+  # loadbalancergateway:
+  #   image:  ${DOCKER_REGISTRY-}loadbalancergateway
+  #   container_name: loadbalancergateway
+  #   build:
+  #     context: LoadBalancer.Gateway
+  #     dockerfile: Dockerfile

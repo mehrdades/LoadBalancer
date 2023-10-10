@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "/yaVw9dfv0T9P6KQlFviEdJoxJziGwhNohde9oFznhsuAhjn6B7d+tqsB+wJwAFDASzNqF7tUQZib+Ww1rbkAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\P1293EA\\OneDrive - Ceridian HCM Inc\\Desktop\\InfoServise\\LoadBalancer\\LoadBalancer.Gateway\\LoadBalancer.Gateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\P1293EA\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\P1293EA\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\P1293EA\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
+    "C:\\Users\\P1293EA\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\P1293EA\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\P1293EA\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\P1293EA\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\P1293EA\\.nuget\\packages\\system.io.hashing\\7.0.0\\system.io.hashing.7.0.0.nupkg.sha512",
+    "C:\\Users\\P1293EA\\.nuget\\packages\\yarp.reverseproxy\\2.0.1\\yarp.reverseproxy.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
